@@ -10,7 +10,7 @@ import { AuthRoutingModule } from './auth/auth.routing';
 
 const routes : Routes = [
 
-  //path: '/dashboard PagesRouting
+  //path: '/dashboard' PagesRouting
   //path: '/auth' AuthRouting
   { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
   { path: '**', component: NpagefoundComponent }

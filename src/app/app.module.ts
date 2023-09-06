@@ -5,12 +5,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 
-import { AppComponent } from './app.component';
-
-
 import { AuthModule } from './auth/auth.module';
-import { NpagefoundComponent } from './npagefound/npagefound.component';
 
+//Componentes
+import { AppComponent } from './app.component';
+import { NpagefoundComponent } from './npagefound/npagefound.component';
 
 
 
@@ -18,7 +17,6 @@ import { NpagefoundComponent } from './npagefound/npagefound.component';
   declarations: [
     AppComponent,
     NpagefoundComponent,
-
   ],
   imports: [
     BrowserModule,

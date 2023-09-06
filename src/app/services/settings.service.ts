@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class SettingsService {
 
-
   private linkTheme = document.querySelector('#theme');
 
   constructor() {

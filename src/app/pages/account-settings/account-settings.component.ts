@@ -4,9 +4,9 @@ import { SettingsService } from 'src/app/services/settings.service';
 @Component({
   selector: 'app-account-settings',
   templateUrl: './account-settings.component.html',
-  styles: [
-  ]
+  styles: []
 })
+
 export class AccountSettingsComponent implements OnInit {
 
   public linkTheme = document.querySelector('#theme');
